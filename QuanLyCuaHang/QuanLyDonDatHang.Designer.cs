@@ -29,8 +29,21 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lbDoAnNhanh = new System.Windows.Forms.Label();
+            this.lbNuocngot = new System.Windows.Forms.Label();
+            this.lbDoNgot = new System.Windows.Forms.Label();
+            this.lbTraSua = new System.Windows.Forms.Label();
+            this.lbCaPhe = new System.Windows.Forms.Label();
+            this.lbTatca = new System.Windows.Forms.Label();
             this.flpContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.txtMaDon = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -52,19 +65,6 @@
             this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.lbTatca = new System.Windows.Forms.Label();
-            this.lbCaPhe = new System.Windows.Forms.Label();
-            this.lbTraSua = new System.Windows.Forms.Label();
-            this.lbDoNgot = new System.Windows.Forms.Label();
-            this.lbNuocngot = new System.Windows.Forms.Label();
-            this.lbDoAnNhanh = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -91,6 +91,127 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 633);
             this.panel1.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel5.Location = new System.Drawing.Point(18, 108);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(138, 1);
+            this.panel5.TabIndex = 11;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel11.Location = new System.Drawing.Point(18, 296);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(138, 1);
+            this.panel11.TabIndex = 10;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel10.Location = new System.Drawing.Point(18, 250);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(138, 1);
+            this.panel10.TabIndex = 9;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel8.Location = new System.Drawing.Point(18, 199);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(138, 1);
+            this.panel8.TabIndex = 8;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel9.Location = new System.Drawing.Point(18, 155);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(138, 1);
+            this.panel9.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel4.Location = new System.Drawing.Point(18, 69);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(138, 2);
+            this.panel4.TabIndex = 6;
+            // 
+            // lbDoAnNhanh
+            // 
+            this.lbDoAnNhanh.AutoSize = true;
+            this.lbDoAnNhanh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbDoAnNhanh.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbDoAnNhanh.ForeColor = System.Drawing.Color.White;
+            this.lbDoAnNhanh.Location = new System.Drawing.Point(14, 270);
+            this.lbDoAnNhanh.Name = "lbDoAnNhanh";
+            this.lbDoAnNhanh.Size = new System.Drawing.Size(110, 23);
+            this.lbDoAnNhanh.TabIndex = 5;
+            this.lbDoAnNhanh.Text = "Đồ ăn nhanh";
+            // 
+            // lbNuocngot
+            // 
+            this.lbNuocngot.AutoSize = true;
+            this.lbNuocngot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbNuocngot.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbNuocngot.ForeColor = System.Drawing.Color.White;
+            this.lbNuocngot.Location = new System.Drawing.Point(12, 224);
+            this.lbNuocngot.Name = "lbNuocngot";
+            this.lbNuocngot.Size = new System.Drawing.Size(93, 23);
+            this.lbNuocngot.TabIndex = 4;
+            this.lbNuocngot.Text = "Nước ngọt";
+            // 
+            // lbDoNgot
+            // 
+            this.lbDoNgot.AutoSize = true;
+            this.lbDoNgot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbDoNgot.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbDoNgot.ForeColor = System.Drawing.Color.White;
+            this.lbDoNgot.Location = new System.Drawing.Point(12, 173);
+            this.lbDoNgot.Name = "lbDoNgot";
+            this.lbDoNgot.Size = new System.Drawing.Size(73, 23);
+            this.lbDoNgot.TabIndex = 3;
+            this.lbDoNgot.Text = "Đồ ngọt";
+            // 
+            // lbTraSua
+            // 
+            this.lbTraSua.AutoSize = true;
+            this.lbTraSua.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbTraSua.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbTraSua.ForeColor = System.Drawing.Color.White;
+            this.lbTraSua.Location = new System.Drawing.Point(12, 129);
+            this.lbTraSua.Name = "lbTraSua";
+            this.lbTraSua.Size = new System.Drawing.Size(65, 23);
+            this.lbTraSua.TabIndex = 2;
+            this.lbTraSua.Text = "Trà sữa";
+            // 
+            // lbCaPhe
+            // 
+            this.lbCaPhe.AutoSize = true;
+            this.lbCaPhe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbCaPhe.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbCaPhe.ForeColor = System.Drawing.Color.White;
+            this.lbCaPhe.Location = new System.Drawing.Point(12, 82);
+            this.lbCaPhe.Name = "lbCaPhe";
+            this.lbCaPhe.Size = new System.Drawing.Size(64, 23);
+            this.lbCaPhe.TabIndex = 1;
+            this.lbCaPhe.Text = "Cà phê";
+            // 
+            // lbTatca
+            // 
+            this.lbTatca.AutoSize = true;
+            this.lbTatca.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbTatca.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            this.lbTatca.ForeColor = System.Drawing.Color.White;
+            this.lbTatca.Location = new System.Drawing.Point(12, 31);
+            this.lbTatca.Name = "lbTatca";
+            this.lbTatca.Size = new System.Drawing.Size(85, 35);
+            this.lbTatca.TabIndex = 0;
+            this.lbTatca.Text = "Tất cả";
+            this.lbTatca.Click += new System.EventHandler(this.lbTatca_Click);
             // 
             // flpContainer
             // 
@@ -124,6 +245,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(459, 633);
             this.panel2.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(207, 390);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(24, 23);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "%";
             // 
             // txtMaDon
             // 
@@ -234,6 +366,7 @@
             this.txtGiamGia.Name = "txtGiamGia";
             this.txtGiamGia.Size = new System.Drawing.Size(77, 22);
             this.txtGiamGia.TabIndex = 4;
+            this.txtGiamGia.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtGiamGia_KeyUp);
             // 
             // panel3
             // 
@@ -288,6 +421,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(21, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 38);
@@ -339,138 +473,6 @@
             this.txtSearch.TabIndex = 0;
             this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
             this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
-            // 
-            // lbTatca
-            // 
-            this.lbTatca.AutoSize = true;
-            this.lbTatca.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbTatca.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
-            this.lbTatca.ForeColor = System.Drawing.Color.White;
-            this.lbTatca.Location = new System.Drawing.Point(12, 31);
-            this.lbTatca.Name = "lbTatca";
-            this.lbTatca.Size = new System.Drawing.Size(85, 35);
-            this.lbTatca.TabIndex = 0;
-            this.lbTatca.Text = "Tất cả";
-            this.lbTatca.Click += new System.EventHandler(this.lbTatca_Click);
-            // 
-            // lbCaPhe
-            // 
-            this.lbCaPhe.AutoSize = true;
-            this.lbCaPhe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbCaPhe.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbCaPhe.ForeColor = System.Drawing.Color.White;
-            this.lbCaPhe.Location = new System.Drawing.Point(12, 82);
-            this.lbCaPhe.Name = "lbCaPhe";
-            this.lbCaPhe.Size = new System.Drawing.Size(64, 23);
-            this.lbCaPhe.TabIndex = 1;
-            this.lbCaPhe.Text = "Cà phê";
-            // 
-            // lbTraSua
-            // 
-            this.lbTraSua.AutoSize = true;
-            this.lbTraSua.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbTraSua.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbTraSua.ForeColor = System.Drawing.Color.White;
-            this.lbTraSua.Location = new System.Drawing.Point(12, 129);
-            this.lbTraSua.Name = "lbTraSua";
-            this.lbTraSua.Size = new System.Drawing.Size(65, 23);
-            this.lbTraSua.TabIndex = 2;
-            this.lbTraSua.Text = "Trà sữa";
-            // 
-            // lbDoNgot
-            // 
-            this.lbDoNgot.AutoSize = true;
-            this.lbDoNgot.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbDoNgot.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbDoNgot.ForeColor = System.Drawing.Color.White;
-            this.lbDoNgot.Location = new System.Drawing.Point(12, 173);
-            this.lbDoNgot.Name = "lbDoNgot";
-            this.lbDoNgot.Size = new System.Drawing.Size(73, 23);
-            this.lbDoNgot.TabIndex = 3;
-            this.lbDoNgot.Text = "Đồ ngọt";
-            // 
-            // lbNuocngot
-            // 
-            this.lbNuocngot.AutoSize = true;
-            this.lbNuocngot.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbNuocngot.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbNuocngot.ForeColor = System.Drawing.Color.White;
-            this.lbNuocngot.Location = new System.Drawing.Point(12, 224);
-            this.lbNuocngot.Name = "lbNuocngot";
-            this.lbNuocngot.Size = new System.Drawing.Size(93, 23);
-            this.lbNuocngot.TabIndex = 4;
-            this.lbNuocngot.Text = "Nước ngọt";
-            // 
-            // lbDoAnNhanh
-            // 
-            this.lbDoAnNhanh.AutoSize = true;
-            this.lbDoAnNhanh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbDoAnNhanh.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbDoAnNhanh.ForeColor = System.Drawing.Color.White;
-            this.lbDoAnNhanh.Location = new System.Drawing.Point(14, 270);
-            this.lbDoAnNhanh.Name = "lbDoAnNhanh";
-            this.lbDoAnNhanh.Size = new System.Drawing.Size(110, 23);
-            this.lbDoAnNhanh.TabIndex = 5;
-            this.lbDoAnNhanh.Text = "Đồ ăn nhanh";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel4.Location = new System.Drawing.Point(18, 69);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(138, 2);
-            this.panel4.TabIndex = 6;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel8.Location = new System.Drawing.Point(18, 199);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(138, 1);
-            this.panel8.TabIndex = 8;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel9.Location = new System.Drawing.Point(18, 155);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(138, 1);
-            this.panel9.TabIndex = 8;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel10.Location = new System.Drawing.Point(18, 250);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(138, 1);
-            this.panel10.TabIndex = 9;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel11.Location = new System.Drawing.Point(18, 296);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(138, 1);
-            this.panel11.TabIndex = 10;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel5.Location = new System.Drawing.Point(18, 108);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(138, 1);
-            this.panel5.TabIndex = 11;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(207, 390);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(24, 23);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "%";
             // 
             // QuanLyDonDatHang
             // 

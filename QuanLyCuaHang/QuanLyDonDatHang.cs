@@ -114,13 +114,9 @@ namespace QuanLyCuaHang
             {
                 string giamGiaText = txtGiamGia.Text.Trim();
                 decimal.TryParse(giamGiaText, out giamGia);
-                giamGia /= 100; // Chuyển về dạng phần trăm (VD: 10% -> 0.1)
-            }
-
-            // Tính tổng tiền sau khi giảm giá
+                giamGia /= 100; 
+            }         
             decimal tongSauGiam = tongTien * (1 - giamGia);
-
-            // Cập nhật hiển thị
             lbTongTien.Text = $"{tongSauGiam:N0}đ";
         }
         private void ThemMonVaoHoaDon(string tenMon, decimal gia)
@@ -246,15 +242,7 @@ namespace QuanLyCuaHang
 
                 try
                 {
-                    // Lấy MaDonHang từ txtDonHang
-                    int maDonHang;
-                    if (!int.TryParse(txtMaDon.Text.Trim(), out maDonHang))
-                    {
-                        MessageBox.Show("Lỗi: Mã đơn hàng không hợp lệ!");
-                        return;
-                    }
-
-                    // Chuyển đổi giảm giá về số
+                    
                     decimal giamGia = 0;
                     if (!string.IsNullOrEmpty(txtGiamGia.Text))
                     {
@@ -262,29 +250,28 @@ namespace QuanLyCuaHang
                         decimal.TryParse(giamGiaText, out giamGia);
                     }
 
-                    // Chuyển đổi tổng tiền về số
+                
                     string tongTienText = lbTongTien.Text.Replace("đ", "").Replace(",", "").Trim();
                     decimal tongTien = 0;
                     if (!decimal.TryParse(tongTienText, out tongTien))
                     {
-                        MessageBox.Show("Lỗi tổng tiền không hợp lệ!");
+                        MessageBox.Show("Lỗi: Tổng tiền không hợp lệ!");
                         return;
                     }
 
-                    // Thêm hóa đơn vào tblDonHang
-                    string insertHoaDonQuery = "INSERT INTO tblDonHang (MaDonHang, MaNV, NgayDat, TrangThai, Loai, GiamGia, TongTien) " +
-                                               "VALUES (@MaDonHang, @MaNV, @NgayDat, @TrangThai, @Loai, @GiamGia, @TongTien)";
+                    // Thêm hóa đơn vào tblDonHang và lấy MaDonHang vừa tạo
+                    string insertHoaDonQuery = @"INSERT INTO tblDonHang (MaNV, NgayDat, Loai, GiamGia, TongTien) 
+                                         VALUES (@MaNV, @NgayDat, @Loai, @GiamGia, @TongTien);
+                                         SELECT SCOPE_IDENTITY();"; // Lấy ID vừa tạo
 
                     SqlCommand cmd = new SqlCommand(insertHoaDonQuery, conn, transaction);
-                    cmd.Parameters.AddWithValue("@MaDonHang", maDonHang);
                     cmd.Parameters.AddWithValue("@MaNV", txtMaNV.Text);
-                    cmd.Parameters.AddWithValue("@NgayDat", DateTime.Now);
-                    cmd.Parameters.AddWithValue("@TrangThai", "Chờ xác nhận");
+                    cmd.Parameters.AddWithValue("@NgayDat", DateTime.Now);                   
                     cmd.Parameters.AddWithValue("@Loai", cmbLoai.SelectedItem.ToString());
                     cmd.Parameters.AddWithValue("@GiamGia", giamGia);
                     cmd.Parameters.AddWithValue("@TongTien", tongTien);
 
-                    cmd.ExecuteNonQuery(); // Không cần lấy ID vì đã có sẵn
+                    int maDonHang = Convert.ToInt32(cmd.ExecuteScalar()); // Lấy MaDonHang mới
 
                     // Thêm từng món vào tblChiTietDonHang
                     foreach (DataGridViewRow row in dgHoaDon.Rows)
@@ -329,13 +316,13 @@ namespace QuanLyCuaHang
         //Gắn sự kiện click vào label danh mục
         private void lblDanhMuc_Click(object sender, EventArgs e)
         {
-            lbTatca.ForeColor = Color.Black;
+            lbTatca.ForeColor = Color.White;
             Label clickedLabel = sender as Label;
             if (clickedLabel != null)
             {              
                 if (selectedLabel != null)
                 {
-                    selectedLabel.ForeColor = Color.Black;
+                    selectedLabel.ForeColor = Color.White;
                 }              
                 clickedLabel.ForeColor = Color.Red; // Đổi sang màu đỏ hoặc màu bạn muốn             
                 selectedLabel = clickedLabel;
@@ -352,11 +339,11 @@ namespace QuanLyCuaHang
         private void lbTatca_Click(object sender, EventArgs e)
         {
             lbTatca.ForeColor = Color.Red;
-            lbCaPhe.ForeColor = Color.Black;
-            lbDoAnNhanh.ForeColor = Color.Black;
-            lbDoNgot.ForeColor = Color.Black;
-            lbNuocngot.ForeColor = Color.Black;
-            lbTraSua.ForeColor = Color.Black;
+            lbCaPhe.ForeColor = Color.White;
+            lbDoAnNhanh.ForeColor = Color.White;
+            lbDoNgot.ForeColor = Color.White;
+            lbNuocngot.ForeColor = Color.White;
+            lbTraSua.ForeColor = Color.White;
             LoadMenu();          
         }
         private void btnXoa_MouseEnter(object sender, EventArgs e)
@@ -381,6 +368,11 @@ namespace QuanLyCuaHang
         {
             btnThanhToan.BackColor = Color.FromArgb(64, 64, 64);
             btnThanhToan.ForeColor = Color.White;
+        }
+
+        private void txtGiamGia_KeyUp(object sender, KeyEventArgs e)
+        {
+            TinhTongTien();
         }
     }
 }
