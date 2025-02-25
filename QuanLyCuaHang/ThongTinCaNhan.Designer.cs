@@ -36,19 +36,12 @@ namespace QuanLyCuaHang
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -56,6 +49,9 @@ namespace QuanLyCuaHang
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -92,7 +88,7 @@ namespace QuanLyCuaHang
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(677, 269);
+            this.label3.Location = new System.Drawing.Point(677, 274);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(164, 29);
             this.label3.TabIndex = 3;
@@ -100,6 +96,7 @@ namespace QuanLyCuaHang
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(855, 174);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -108,31 +105,12 @@ namespace QuanLyCuaHang
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(855, 259);
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(855, 264);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(302, 49);
             this.textBox2.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(245, 400);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 29);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Giới tính";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(245, 485);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 29);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Địa chỉ";
             // 
             // label8
             // 
@@ -148,7 +126,7 @@ namespace QuanLyCuaHang
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(245, 650);
+            this.label9.Location = new System.Drawing.Point(245, 655);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(164, 29);
             this.label9.TabIndex = 11;
@@ -158,21 +136,11 @@ namespace QuanLyCuaHang
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(780, 400);
+            this.label10.Location = new System.Drawing.Point(245, 480);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(154, 29);
             this.label10.TabIndex = 12;
             this.label10.Text = "Số điện thoại";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(780, 485);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(172, 29);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Quyền truy cập";
             // 
             // label12
             // 
@@ -188,54 +156,24 @@ namespace QuanLyCuaHang
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(780, 650);
+            this.label13.Location = new System.Drawing.Point(780, 655);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(109, 29);
             this.label13.TabIndex = 15;
             this.label13.Text = "Mật khẩu";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(413, 390);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(300, 50);
-            this.textBox3.TabIndex = 16;
-            // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(413, 640);
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(413, 645);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(300, 50);
             this.textBox4.TabIndex = 17;
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(413, 475);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(300, 50);
-            this.textBox5.TabIndex = 18;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(968, 390);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(300, 50);
-            this.textBox9.TabIndex = 22;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(968, 475);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(300, 50);
-            this.textBox10.TabIndex = 23;
-            // 
             // textBox11
             // 
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(968, 560);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
@@ -244,7 +182,8 @@ namespace QuanLyCuaHang
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(968, 640);
+            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(968, 645);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(300, 50);
@@ -271,7 +210,7 @@ namespace QuanLyCuaHang
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 50);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Cập nhập";
+            this.button3.Text = "Thoát";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -282,7 +221,7 @@ namespace QuanLyCuaHang
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 50);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Cập nhập";
+            this.button2.Text = "Hủy";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -306,6 +245,34 @@ namespace QuanLyCuaHang
             this.dateTimePicker1.Size = new System.Drawing.Size(300, 35);
             this.dateTimePicker1.TabIndex = 27;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(780, 480);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(172, 29);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Quyền truy cập";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(413, 470);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(300, 50);
+            this.textBox9.TabIndex = 22;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(968, 470);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(300, 50);
+            this.textBox10.TabIndex = 23;
+            // 
             // ThongTinCaNhan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -317,17 +284,13 @@ namespace QuanLyCuaHang
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -351,19 +314,12 @@ namespace QuanLyCuaHang
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -371,5 +327,8 @@ namespace QuanLyCuaHang
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
     }
 }
