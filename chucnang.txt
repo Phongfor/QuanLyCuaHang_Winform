@@ -1,0 +1,11 @@
+-Đăng nhập (2 Giao diện cho nhân viên và quản lý)
+-Quản lý nhân viên
+-Quản lý hàng hóa :
+	+Quản lý loại món
+	+Quản lý món ăn
+-Quản lý đặt hàng(mang về/ ở lại quán) :
+	+Quản lý khách hàng
+	+Quản lý đơn đặt hàng
+	+Quản lý giao hàng
+-Thống kê:
+	+Thống kê doanh thu

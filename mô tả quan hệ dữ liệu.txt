@@ -1,0 +1,14 @@
+tblDanhmuc(idDanhMuc,TenDanhmuc)
+tblMonAn(idMon,TenMon,MoTa,DonVi,GiaTien,idDanhMuc)
+tblKhachHang(idKH,TenKH,SDTKH,DiaChi)
+tblNhanVien(idNV,TenNV,SDTNV,NgayVaoLam,TaiKhoan,MatKhau,QuyenHan)
+tblDonHang(idDonHang,idNV,NgayDat,NgayThanhToan,Loai,TrangThai,TongTien,GiamGia)
+tblChiTietDonHang(idDonHang,idMonAn,SoLuong,Gia,Ghichu)
+tblGiaoHang(idDonHang,idKhachHang,TenNguoiGiao,SDTNguoiGiao,TrangThai,GhiChu,BgayBatDau,NgayKetThuc)
+
+tblDanhMuc(1) -- (N)tblMonAN
+TblKhachHang(1) -- (N)tblGiaoHang
+tblGiaoHang(1) -- (1)tblDonHang
+tblDonHang(1) -- (N)tblChiTietDonHang
+tblNhanVien(1) -- (N)tblDonHang
+tblChiTietDonHang(N) -- (1)tblMonAn
