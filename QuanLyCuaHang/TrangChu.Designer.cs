@@ -37,6 +37,12 @@
             this.sidebarMenu = new System.Windows.Forms.PictureBox();
             this.LbMenu = new System.Windows.Forms.Label();
             this.btnQLNV = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnQLHH = new System.Windows.Forms.Button();
+            this.btnQLLM = new System.Windows.Forms.Button();
+            this.btnQLMA = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -44,12 +50,6 @@
             this.btnQLDDH = new System.Windows.Forms.Button();
             this.btnQLGH = new System.Windows.Forms.Button();
             this.btnQLKH = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnQLHH = new System.Windows.Forms.Button();
-            this.btnQLLM = new System.Windows.Forms.Button();
-            this.btnQLMA = new System.Windows.Forms.Button();
             this.btnTK = new System.Windows.Forms.Button();
             this.btnTTCN = new System.Windows.Forms.Button();
             this.MenuTimer2 = new System.Windows.Forms.Timer(this.components);
@@ -57,12 +57,12 @@
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sidebarMenu)).BeginInit();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // SidebarTimer
@@ -117,6 +117,7 @@
             // sidebarMenu
             // 
             this.sidebarMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.sidebarMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sidebarMenu.Image = global::QuanLyCuaHang.Properties.Resources.menu_bar;
             this.sidebarMenu.Location = new System.Drawing.Point(24, 16);
             this.sidebarMenu.Name = "sidebarMenu";
@@ -152,6 +153,89 @@
             this.btnQLNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLNV.UseVisualStyleBackColor = false;
             this.btnQLNV.Click += new System.EventHandler(this.btnQLNV_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.flowLayoutPanel1.Controls.Add(this.panel4);
+            this.flowLayoutPanel1.Controls.Add(this.btnQLLM);
+            this.flowLayoutPanel1.Controls.Add(this.btnQLMA);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 138);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(323, 198);
+            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(323, 72);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(323, 72);
+            this.flowLayoutPanel1.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Controls.Add(this.btnQLHH);
+            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(323, 66);
+            this.panel4.TabIndex = 8;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::QuanLyCuaHang.Properties.Resources.down;
+            this.pictureBox4.Location = new System.Drawing.Point(277, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // btnQLHH
+            // 
+            this.btnQLHH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnQLHH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnQLHH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnQLHH.ForeColor = System.Drawing.Color.White;
+            this.btnQLHH.Image = global::QuanLyCuaHang.Properties.Resources.checklists;
+            this.btnQLHH.Location = new System.Drawing.Point(0, 0);
+            this.btnQLHH.Margin = new System.Windows.Forms.Padding(0);
+            this.btnQLHH.Name = "btnQLHH";
+            this.btnQLHH.Size = new System.Drawing.Size(323, 66);
+            this.btnQLHH.TabIndex = 0;
+            this.btnQLHH.Text = "                 Quản lý hàng hóa";
+            this.btnQLHH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQLHH.UseVisualStyleBackColor = false;
+            this.btnQLHH.Click += new System.EventHandler(this.btnQLHH_Click);
+            this.btnQLHH.Leave += new System.EventHandler(this.btnQLHH_Leave);
+            // 
+            // btnQLLM
+            // 
+            this.btnQLLM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnQLLM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnQLLM.ForeColor = System.Drawing.Color.White;
+            this.btnQLLM.Image = global::QuanLyCuaHang.Properties.Resources.price_list;
+            this.btnQLLM.Location = new System.Drawing.Point(0, 72);
+            this.btnQLLM.Margin = new System.Windows.Forms.Padding(0);
+            this.btnQLLM.MaximumSize = new System.Drawing.Size(323, 61);
+            this.btnQLLM.Name = "btnQLLM";
+            this.btnQLLM.Size = new System.Drawing.Size(323, 61);
+            this.btnQLLM.TabIndex = 1;
+            this.btnQLLM.Text = "                 Quản lý loại món";
+            this.btnQLLM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQLLM.UseVisualStyleBackColor = false;
+            // 
+            // btnQLMA
+            // 
+            this.btnQLMA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnQLMA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnQLMA.ForeColor = System.Drawing.Color.White;
+            this.btnQLMA.Image = global::QuanLyCuaHang.Properties.Resources.dish;
+            this.btnQLMA.Location = new System.Drawing.Point(0, 133);
+            this.btnQLMA.Margin = new System.Windows.Forms.Padding(0);
+            this.btnQLMA.Name = "btnQLMA";
+            this.btnQLMA.Size = new System.Drawing.Size(323, 65);
+            this.btnQLMA.TabIndex = 2;
+            this.btnQLMA.Text = "                 Quản lý Món ăn";
+            this.btnQLMA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQLMA.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel2
             // 
@@ -254,89 +338,6 @@
             this.btnQLKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLKH.UseVisualStyleBackColor = false;
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Controls.Add(this.btnQLLM);
-            this.flowLayoutPanel1.Controls.Add(this.btnQLMA);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 138);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(323, 198);
-            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(323, 72);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(323, 72);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.btnQLHH);
-            this.panel4.Location = new System.Drawing.Point(3, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(323, 66);
-            this.panel4.TabIndex = 8;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::QuanLyCuaHang.Properties.Resources.down;
-            this.pictureBox4.Location = new System.Drawing.Point(277, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // btnQLHH
-            // 
-            this.btnQLHH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnQLHH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnQLHH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnQLHH.ForeColor = System.Drawing.Color.White;
-            this.btnQLHH.Image = global::QuanLyCuaHang.Properties.Resources.checklists;
-            this.btnQLHH.Location = new System.Drawing.Point(0, 0);
-            this.btnQLHH.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLHH.Name = "btnQLHH";
-            this.btnQLHH.Size = new System.Drawing.Size(323, 66);
-            this.btnQLHH.TabIndex = 0;
-            this.btnQLHH.Text = "                 Quản lý hàng hóa";
-            this.btnQLHH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnQLHH.UseVisualStyleBackColor = false;
-            this.btnQLHH.Click += new System.EventHandler(this.btnQLHH_Click);
-            this.btnQLHH.Leave += new System.EventHandler(this.btnQLHH_Leave);
-            // 
-            // btnQLLM
-            // 
-            this.btnQLLM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnQLLM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnQLLM.ForeColor = System.Drawing.Color.White;
-            this.btnQLLM.Image = global::QuanLyCuaHang.Properties.Resources.price_list;
-            this.btnQLLM.Location = new System.Drawing.Point(0, 72);
-            this.btnQLLM.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLLM.MaximumSize = new System.Drawing.Size(323, 61);
-            this.btnQLLM.Name = "btnQLLM";
-            this.btnQLLM.Size = new System.Drawing.Size(323, 61);
-            this.btnQLLM.TabIndex = 1;
-            this.btnQLLM.Text = "                 Quản lý loại món";
-            this.btnQLLM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnQLLM.UseVisualStyleBackColor = false;
-            // 
-            // btnQLMA
-            // 
-            this.btnQLMA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnQLMA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnQLMA.ForeColor = System.Drawing.Color.White;
-            this.btnQLMA.Image = global::QuanLyCuaHang.Properties.Resources.dish;
-            this.btnQLMA.Location = new System.Drawing.Point(0, 133);
-            this.btnQLMA.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLMA.Name = "btnQLMA";
-            this.btnQLMA.Size = new System.Drawing.Size(323, 65);
-            this.btnQLMA.TabIndex = 2;
-            this.btnQLMA.Text = "                 Quản lý Món ăn";
-            this.btnQLMA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnQLMA.UseVisualStyleBackColor = false;
-            // 
             // btnTK
             // 
             this.btnTK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -396,12 +397,12 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sidebarMenu)).EndInit();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
