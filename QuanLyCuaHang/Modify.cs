@@ -15,10 +15,7 @@ namespace QuanLyCuaHang
         SqlCommand sqlCommand;
         SqlDataReader DataReader;
 
-        public Modify()
-        {
-            
-        }
+        public Modify(){}
 
         public List<Taikhoan> Taikhoans(string query)
         {
@@ -115,7 +112,6 @@ namespace QuanLyCuaHang
             }
         }
 
-
         //Hàm xóa theo id
         public bool DeleteID(string tablename, string columname, int recordID)
         {
@@ -146,7 +142,6 @@ namespace QuanLyCuaHang
                 return false;
             }
         }
-
 
         //Hàm sửa
         public bool UpdateItem(string tableName, Dictionary<string, object> data, string conditionColumn, object conditionValue)
@@ -187,6 +182,41 @@ namespace QuanLyCuaHang
             {
                 MessageBox.Show("Lỗi cập nhật dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
+            }
+        }
+
+        //Hàm tìm kiếm
+        public void loadDatagrv_Search(string tableName, string columnName, object searchValue, DataGridView dgr)
+        {
+            using (SqlConnection cnn = Connections.GetConnect())
+            {
+                string query = $"SELECT * FROM {tableName} WHERE {columnName} = @searchValue";
+
+                using (SqlCommand cmd = new SqlCommand(query, cnn))
+                {
+                    // Xác định kiểu dữ liệu của searchValue để tránh lỗi SQL
+                    if (searchValue is int)
+                    {
+                        cmd.Parameters.AddWithValue("@searchValue", (int)searchValue);
+                    }
+                    else if (searchValue is string)
+                    {
+                        cmd.Parameters.AddWithValue("@searchValue", searchValue.ToString());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Dữ liệu tìm kiếm không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        dgr.DataSource = dt;
+                        dgr.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                    }
+                }
             }
         }
 
