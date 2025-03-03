@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -18,17 +14,19 @@ namespace QuanLyCuaHang
         bool MenuExpand1;
         bool MenuExpand2;
         private Button selectedButton = null;
+        private string username;
 
-        public TrangChu(string role)
+        public TrangChu(string role, string user)
         {
             InitializeComponent();
             userRole = role;
+            username = user;
 
         }
         //Kiểm tra quyền khi đăng nhập
         private void AccessControl()
         {
-            if(userRole == "Nhân viên")
+            if (userRole == "Nhân viên")
             {
                 btnQLNV.Enabled = false;
                 btnTK.Enabled = false;
@@ -47,13 +45,13 @@ namespace QuanLyCuaHang
             // Nếu button đã chọn trước đó khác button vừa click, thì reset button cũ về màu gốc
             if (selectedButton != null && selectedButton != clickedButton)
             {
-                selectedButton.BackColor = Color.FromArgb(64, 64, 64); 
-                
+                selectedButton.BackColor = Color.FromArgb(64, 64, 64);
+
             }
 
             // Đổi màu button mới
-            clickedButton.BackColor = Color.Black; 
-            selectedButton = clickedButton; 
+            clickedButton.BackColor = Color.Black;
+            selectedButton = clickedButton;
         }
 
         //Thêm các nút để thực hiện Button_Click
@@ -74,13 +72,22 @@ namespace QuanLyCuaHang
         //Thêm form mới vào panelcontainer
         private void AddControlForm(Form form)
         {
-            form.TopLevel = false; 
-            form.FormBorderStyle = FormBorderStyle.None; 
+            foreach (Control ctrl in panelContainer.Controls)
+            {
+                if (ctrl is Form)
+                {
+                    ((Form)ctrl).Dispose(); // Giải phóng form cũ
+                }
+            }
+            panelContainer.Controls.Clear();
+
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
             form.Dock = DockStyle.Fill;
-            panelContainer.Controls.Clear(); 
             panelContainer.Controls.Add(form);
             form.Show();
         }
+
 
         //animation cho sibar
         private void SidebarTimer_Tick(object sender, EventArgs e)
@@ -110,7 +117,7 @@ namespace QuanLyCuaHang
         {
             int step = 20;
 
-            if (MenuExpand1) 
+            if (MenuExpand1)
             {
                 flowLayoutPanel1.Height += step;
                 if (flowLayoutPanel1.Height >= flowLayoutPanel1.MaximumSize.Height)
@@ -119,7 +126,7 @@ namespace QuanLyCuaHang
                     MenuTimer1.Stop();
                 }
             }
-            else 
+            else
             {
                 flowLayoutPanel1.Height -= step;
                 if (flowLayoutPanel1.Height <= flowLayoutPanel1.MinimumSize.Height)
@@ -133,9 +140,9 @@ namespace QuanLyCuaHang
         //animation cho Quản lý đặt hàng
         private void MenuTimer2_Tick(object sender, EventArgs e)
         {
-            int step = 20; 
+            int step = 20;
 
-            if (MenuExpand2) 
+            if (MenuExpand2)
             {
                 flowLayoutPanel2.Height += step;
                 if (flowLayoutPanel2.Height >= flowLayoutPanel2.MaximumSize.Height)
@@ -144,7 +151,7 @@ namespace QuanLyCuaHang
                     MenuTimer2.Stop();
                 }
             }
-            else 
+            else
             {
                 flowLayoutPanel2.Height -= step;
                 if (flowLayoutPanel2.Height <= flowLayoutPanel2.MinimumSize.Height)
@@ -158,20 +165,21 @@ namespace QuanLyCuaHang
         private void Menu_Click(object sender, EventArgs e)
         {
             SidebarTimer.Start();
-            
+
         }
 
         private void btnQLDH_Click(object sender, EventArgs e)
         {
-            MenuExpand2 = !MenuExpand2; 
+            MenuExpand2 = !MenuExpand2;
 
             if (!MenuTimer2.Enabled)
             {
-                MenuTimer2.Start(); 
+                MenuTimer2.Start();
             }
-           
+
             if (pictureBox2.Image != null)
-            {   pictureBox2.BackColor = Color.Black;               
+            {
+                pictureBox2.BackColor = Color.Black;
                 pictureBox2.Image.RotateFlip(RotateFlipType.Rotate180FlipNone);
                 pictureBox2.Refresh();
             }
@@ -185,7 +193,8 @@ namespace QuanLyCuaHang
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();  // Đóng form TrangChu
+            Application.Exit(); // Thoát toàn bộ ứng dụng
         }
 
         private void btnQLHH_Click(object sender, EventArgs e)
@@ -225,6 +234,18 @@ namespace QuanLyCuaHang
         {
             QuanLyDonDatHang QLDDH = new QuanLyDonDatHang();
             AddControlForm(QLDDH);
+        }
+
+        private void btnTTCN_Click(object sender, EventArgs e)
+        {
+            ThongTinCaNhan ttcn = new ThongTinCaNhan(username);
+            AddControlForm(ttcn);
+        }
+
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            ThongKeDoanhThu tkdt = new ThongKeDoanhThu();
+            AddControlForm(tkdt);
         }
     }
 }

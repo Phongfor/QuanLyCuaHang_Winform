@@ -16,7 +16,7 @@ namespace QuanLyCuaHang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLyDonDatHang());
+            Application.Run(new LoginForm());
         }
     }
 }

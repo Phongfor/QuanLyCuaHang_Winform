@@ -38,3 +38,25 @@ D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\D
 D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.CoreCompileInputs.cache
 D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.exe
 D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.pdb
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\bin\Debug\QuanLyCuaHang.exe.config
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\bin\Debug\QuanLyCuaHang.exe
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\bin\Debug\QuanLyCuaHang.pdb
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.AssemblyReference.cache
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.FoodItem.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ForgotPass.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.LoginForm.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Properties.Resources.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyDonDatHang.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyGiaoHang.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyKhachHang.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyLoaiMon.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyMonAn.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.QuanLyNhanVien.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.RegisterForm.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.TrangChu.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.GenerateResource.cache
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.CoreCompileInputs.cache
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.exe
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.pdb
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ThongKeDoanhThu.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ThongTinCaNhan.resources
