@@ -37,7 +37,7 @@ namespace QuanLyCuaHang
                 if (Account.Count > 0)
                 {
                     string role = Account[0].Role;                 
-                    TrangChu trangChu = new TrangChu(role);
+                    TrangChu trangChu = new TrangChu(role , User);
                     this.Hide();
                     trangChu.ShowDialog();
                     this.Close();

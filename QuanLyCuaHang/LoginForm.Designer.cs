@@ -119,7 +119,7 @@
             this.linkLabel2.LinkColor = System.Drawing.Color.IndianRed;
             this.linkLabel2.Location = new System.Drawing.Point(294, 73);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(131, 20);
+            this.linkLabel2.Size = new System.Drawing.Size(157, 25);
             this.linkLabel2.TabIndex = 3;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Quên mật khẩu?";
@@ -131,7 +131,7 @@
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(4, 73);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 22);
+            this.checkBox1.Size = new System.Drawing.Size(151, 26);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Hiện mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -154,7 +154,7 @@
             this.label4.ForeColor = System.Drawing.Color.Red;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(218, 20);
+            this.label4.Size = new System.Drawing.Size(267, 25);
             this.label4.TabIndex = 2;
             this.label4.Text = "Mật khẩu không được để trống!";
             this.label4.Visible = false;
@@ -199,7 +199,7 @@
             this.txtLoginPass.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtLoginPass.Location = new System.Drawing.Point(4, 3);
             this.txtLoginPass.Name = "txtLoginPass";
-            this.txtLoginPass.Size = new System.Drawing.Size(421, 23);
+            this.txtLoginPass.Size = new System.Drawing.Size(421, 28);
             this.txtLoginPass.TabIndex = 2;
             this.txtLoginPass.Text = "Nhập mật khẩu";
             this.txtLoginPass.Click += new System.EventHandler(this.textBox2_Click);
@@ -212,7 +212,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(69, 221);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 28);
+            this.label5.Size = new System.Drawing.Size(130, 32);
             this.label5.TabIndex = 5;
             this.label5.Text = "Mật Khẩu :";
             // 
@@ -256,7 +256,7 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(219, 20);
+            this.label3.Size = new System.Drawing.Size(267, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Tài khoản không được để trống!";
             this.label3.Visible = false;
@@ -301,7 +301,7 @@
             this.txtLoginUser.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtLoginUser.Location = new System.Drawing.Point(4, 3);
             this.txtLoginUser.Name = "txtLoginUser";
-            this.txtLoginUser.Size = new System.Drawing.Size(421, 23);
+            this.txtLoginUser.Size = new System.Drawing.Size(421, 28);
             this.txtLoginUser.TabIndex = 2;
             this.txtLoginUser.Text = "Tên đăng nhập";
             this.txtLoginUser.Click += new System.EventHandler(this.textBox1_Click);
@@ -315,7 +315,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(72, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 28);
+            this.label2.Size = new System.Drawing.Size(130, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tài Khoản :";
             // 
@@ -327,13 +327,13 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(262, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 45);
+            this.label1.Size = new System.Drawing.Size(230, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng nhập";
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1017, 506);
             this.Controls.Add(this.panel2);
