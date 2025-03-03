@@ -72,18 +72,10 @@ namespace QuanLyCuaHang
         //Thêm form mới vào panelcontainer
         private void AddControlForm(Form form)
         {
-            foreach (Control ctrl in panelContainer.Controls)
-            {
-                if (ctrl is Form)
-                {
-                    ((Form)ctrl).Dispose(); // Giải phóng form cũ
-                }
-            }
-            panelContainer.Controls.Clear();
-
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.Dock = DockStyle.Fill;
+            panelContainer.Controls.Clear();
             panelContainer.Controls.Add(form);
             form.Show();
         }
