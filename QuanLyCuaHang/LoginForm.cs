@@ -16,10 +16,17 @@ namespace QuanLyCuaHang
         public LoginForm()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         Modify modify = new Modify();
-    
+
+        private void CenterPanel()
+        {
+            panel3.Left = (this.ClientSize.Width - panel3.Width) / 2;
+            panel3.Top = (this.ClientSize.Height - panel3.Height) / 2;
+        }
+
         private void textBox1_Click(object sender, EventArgs e)
         {
             txtLoginUser.Clear();
@@ -106,7 +113,13 @@ namespace QuanLyCuaHang
             btnLogin.BackColor = Color.White;
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        private void LoginForm_Resize(object sender, EventArgs e)
+        {
+            CenterPanel();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, EventArgs e)
         {
             this.Hide();
             ForgotPass forgotPass = new ForgotPass();

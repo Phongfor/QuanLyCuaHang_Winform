@@ -19,6 +19,7 @@ namespace QuanLyCuaHang
         public TrangChu(string role, string user)
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
             userRole = role;
             username = user;
 
@@ -75,6 +76,7 @@ namespace QuanLyCuaHang
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.Dock = DockStyle.Fill;
+            form.Size = panelContainer.ClientSize;
             panelContainer.Controls.Clear();
             panelContainer.Controls.Add(form);
             form.Show();
@@ -183,12 +185,6 @@ namespace QuanLyCuaHang
             AddControlForm(nhanVien);
         }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();  // Đóng form TrangChu
-            Application.Exit(); // Thoát toàn bộ ứng dụng
-        }
-
         private void btnQLHH_Click(object sender, EventArgs e)
         {
             MenuExpand1 = !MenuExpand1;
@@ -238,6 +234,14 @@ namespace QuanLyCuaHang
         {
             ThongKeDoanhThu tkdt = new ThongKeDoanhThu();
             AddControlForm(tkdt);
+        }
+
+        private void TrangChu_Resize(object sender, EventArgs e)
+        {
+            if (panelContainer.Controls.Count > 0)
+            {
+                panelContainer.Controls[0].Size = panelContainer.ClientSize;
+            }
         }
     }
 }

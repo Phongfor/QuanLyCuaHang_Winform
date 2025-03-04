@@ -44,8 +44,6 @@
             this.flpContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtMaDon = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.btnXoa = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
@@ -65,6 +63,7 @@
             this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnInHD = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -215,19 +214,20 @@
             // 
             // flpContainer
             // 
-            this.flpContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.flpContainer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.flpContainer.AutoScroll = true;
-            this.flpContainer.BackColor = System.Drawing.Color.Black;
+            this.flpContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.flpContainer.Location = new System.Drawing.Point(206, 51);
+            this.flpContainer.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.flpContainer.Name = "flpContainer";
             this.flpContainer.Size = new System.Drawing.Size(470, 539);
             this.flpContainer.TabIndex = 1;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnInHD);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.txtMaDon);
-            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnXoa);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.label6);
@@ -256,25 +256,6 @@
             this.label8.Size = new System.Drawing.Size(24, 23);
             this.label8.TabIndex = 15;
             this.label8.Text = "%";
-            // 
-            // txtMaDon
-            // 
-            this.txtMaDon.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtMaDon.ForeColor = System.Drawing.Color.Black;
-            this.txtMaDon.Location = new System.Drawing.Point(326, 354);
-            this.txtMaDon.Name = "txtMaDon";
-            this.txtMaDon.Size = new System.Drawing.Size(100, 22);
-            this.txtMaDon.TabIndex = 14;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(262, 363);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 16);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Mã đơn :";
             // 
             // btnXoa
             // 
@@ -474,6 +455,19 @@
             this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
             this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
             // 
+            // btnInHD
+            // 
+            this.btnInHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnInHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInHD.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnInHD.ForeColor = System.Drawing.Color.White;
+            this.btnInHD.Location = new System.Drawing.Point(222, 7);
+            this.btnInHD.Name = "btnInHD";
+            this.btnInHD.Size = new System.Drawing.Size(126, 33);
+            this.btnInHD.TabIndex = 16;
+            this.btnInHD.Text = "In hóa đơn";
+            this.btnInHD.UseVisualStyleBackColor = false;
+            // 
             // QuanLyDonDatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -486,6 +480,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "QuanLyDonDatHang";
             this.Text = "QuanLyDonDatHang";
+            this.Resize += new System.EventHandler(this.QuanLyDonDatHang_Resize);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -522,8 +517,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtMaNV;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtMaDon;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lbDoNgot;
         private System.Windows.Forms.Label lbTraSua;
         private System.Windows.Forms.Label lbCaPhe;
@@ -537,5 +530,6 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnInHD;
     }
 }

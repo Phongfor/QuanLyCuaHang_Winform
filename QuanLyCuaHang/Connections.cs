@@ -10,7 +10,7 @@ namespace QuanLyCuaHang
 
     internal static class Connections
     {
-        private static string strcon = @"Data Source=LAPTOP-4UPH6DGG\SQLEXPRESS;Initial Catalog=QuanLyCuaHang;Integrated Security=True";
+        private static string strcon = @"Data Source=DESKTOP-0RA74SJ\SQLEXPRESS;Initial Catalog=QuanLyCuaHang;Integrated Security=True";
 
         public static SqlConnection GetConnect()
         {           

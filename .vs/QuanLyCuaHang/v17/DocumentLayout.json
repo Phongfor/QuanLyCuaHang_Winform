@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\thongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\thongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|d:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\c#\\quanlycuahang\\quanlycuahang_winform\\quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\quanlydondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1145F21-FACE-4887-9298-F5DD61DC06F6}|QuanLyCuaHang\\QuanLyCuaHang.csproj|solutionrelative:quanlycuahang\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,25 +45,71 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Modify.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Modify.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\Modify.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Modify.cs",
-              "RelativeToolTip": "QuanLyCuaHang\\Modify.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAA1wJcAAACAAAAAAAAAAA==",
+              "Title": "QuanLyDonDatHang.cs",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "RelativeDocumentMoniker": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "RelativeToolTip": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:15:59.631Z",
+              "WhenOpened": "2025-03-04T01:42:15.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyDonDatHang.cs [Design]",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "RelativeDocumentMoniker": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs [Design]",
+              "RelativeToolTip": "QuanLyCuaHang\\QuanLyDonDatHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:26:22.888Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ThongTinCaNhan.cs [Design]",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\ThongTinCaNhan.cs",
+              "RelativeDocumentMoniker": "QuanLyCuaHang\\ThongTinCaNhan.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\ThongTinCaNhan.cs [Design]",
+              "RelativeToolTip": "QuanLyCuaHang\\ThongTinCaNhan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:19:12.079Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyCuaHang\\Program.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Program.cs",
+              "RelativeToolTip": "QuanLyCuaHang\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:09:07.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\TrangChu.cs",
+              "RelativeDocumentMoniker": "QuanLyCuaHang\\TrangChu.cs",
+              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\TrangChu.cs",
+              "RelativeToolTip": "QuanLyCuaHang\\TrangChu.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwEwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:06:17.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TrangChu.cs [Design]",
               "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\TrangChu.cs",
               "RelativeDocumentMoniker": "QuanLyCuaHang\\TrangChu.cs",
@@ -76,66 +118,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T15:15:35.938Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\LoginForm.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\LoginForm.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\LoginForm.cs",
-              "RelativeToolTip": "QuanLyCuaHang\\LoginForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T06:53:48.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\LoginForm.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\LoginForm.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\LoginForm.cs [Design]",
-              "RelativeToolTip": "QuanLyCuaHang\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T06:53:45.717Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuanLyDonDatHang.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "RelativeToolTip": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:24:58.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\Program.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\Program.cs",
-              "RelativeToolTip": "QuanLyCuaHang\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:37:11.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuanLyDonDatHang.cs [Design]",
-              "DocumentMoniker": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "RelativeDocumentMoniker": "QuanLyCuaHang\\QuanLyDonDatHang.cs",
-              "ToolTip": "D:\\h\u1ECDc k\u00EC 2 n\u0103m 2\\C#\\QuanLyCuaHang\\QuanLyCuaHang_Winform\\QuanLyCuaHang\\QuanLyDonDatHang.cs [Design]",
-              "RelativeToolTip": "QuanLyCuaHang\\QuanLyDonDatHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T15:00:47.223Z"
             }
           ]
         }

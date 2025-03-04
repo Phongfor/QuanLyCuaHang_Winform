@@ -14,7 +14,15 @@ namespace QuanLyCuaHang
     {
         public QuanLyNhanVien()
         {
-            InitializeComponent();
+            InitializeComponent();           
+            this.WindowState = FormWindowState.Maximized;
+            CenterPanel();
+        }
+        private void CenterPanel()
+        {
+            panel1.Left = (this.ClientSize.Width - panel1.Width);
+            panel1.Top = (this.ClientSize.Height - panel1.Height);
+            
         }
     }
 }

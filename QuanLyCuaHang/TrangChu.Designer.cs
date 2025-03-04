@@ -87,10 +87,10 @@
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.Margin = new System.Windows.Forms.Padding(0);
-            this.sidebar.MaximumSize = new System.Drawing.Size(363, 0);
-            this.sidebar.MinimumSize = new System.Drawing.Size(98, 812);
+            this.sidebar.MaximumSize = new System.Drawing.Size(323, 0);
+            this.sidebar.MinimumSize = new System.Drawing.Size(87, 650);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(363, 850);
+            this.sidebar.Size = new System.Drawing.Size(323, 680);
             this.sidebar.TabIndex = 1;
             // 
             // panel3
@@ -98,10 +98,9 @@
             this.panel3.Controls.Add(this.lbRole);
             this.panel3.Controls.Add(this.sidebarMenu);
             this.panel3.Controls.Add(this.LbMenu);
-            this.panel3.Location = new System.Drawing.Point(3, 4);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 86);
+            this.panel3.Size = new System.Drawing.Size(320, 69);
             this.panel3.TabIndex = 2;
             // 
             // lbRole
@@ -109,9 +108,9 @@
             this.lbRole.AutoSize = true;
             this.lbRole.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbRole.ForeColor = System.Drawing.Color.White;
-            this.lbRole.Location = new System.Drawing.Point(222, 28);
+            this.lbRole.Location = new System.Drawing.Point(197, 22);
             this.lbRole.Name = "lbRole";
-            this.lbRole.Size = new System.Drawing.Size(54, 30);
+            this.lbRole.Size = new System.Drawing.Size(44, 23);
             this.lbRole.TabIndex = 2;
             this.lbRole.Text = "Role";
             // 
@@ -120,10 +119,9 @@
             this.sidebarMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.sidebarMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sidebarMenu.Image = global::QuanLyCuaHang.Properties.Resources.menu_bar;
-            this.sidebarMenu.Location = new System.Drawing.Point(27, 20);
-            this.sidebarMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sidebarMenu.Location = new System.Drawing.Point(24, 16);
             this.sidebarMenu.Name = "sidebarMenu";
-            this.sidebarMenu.Size = new System.Drawing.Size(45, 50);
+            this.sidebarMenu.Size = new System.Drawing.Size(40, 40);
             this.sidebarMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.sidebarMenu.TabIndex = 0;
             this.sidebarMenu.TabStop = false;
@@ -134,9 +132,9 @@
             this.LbMenu.AutoSize = true;
             this.LbMenu.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.LbMenu.ForeColor = System.Drawing.Color.White;
-            this.LbMenu.Location = new System.Drawing.Point(89, 25);
+            this.LbMenu.Location = new System.Drawing.Point(79, 20);
             this.LbMenu.Name = "LbMenu";
-            this.LbMenu.Size = new System.Drawing.Size(72, 30);
+            this.LbMenu.Size = new System.Drawing.Size(61, 25);
             this.LbMenu.TabIndex = 1;
             this.LbMenu.Text = "Menu";
             // 
@@ -146,10 +144,10 @@
             this.btnQLNV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLNV.ForeColor = System.Drawing.Color.White;
             this.btnQLNV.Image = global::QuanLyCuaHang.Properties.Resources.multiple_users_silhouette;
-            this.btnQLNV.Location = new System.Drawing.Point(0, 94);
+            this.btnQLNV.Location = new System.Drawing.Point(0, 75);
             this.btnQLNV.Margin = new System.Windows.Forms.Padding(0);
             this.btnQLNV.Name = "btnQLNV";
-            this.btnQLNV.Size = new System.Drawing.Size(363, 79);
+            this.btnQLNV.Size = new System.Drawing.Size(323, 63);
             this.btnQLNV.TabIndex = 5;
             this.btnQLNV.Text = "                 Quản lý nhân viên";
             this.btnQLNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -162,32 +160,30 @@
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.Controls.Add(this.btnQLLM);
             this.flowLayoutPanel1.Controls.Add(this.btnQLMA);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 173);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 138);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(363, 248);
-            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(363, 90);
+            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(323, 198);
+            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(323, 72);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(363, 90);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(323, 72);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.btnQLHH);
-            this.panel4.Location = new System.Drawing.Point(3, 4);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(363, 82);
+            this.panel4.Size = new System.Drawing.Size(323, 66);
             this.panel4.TabIndex = 8;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::QuanLyCuaHang.Properties.Resources.down;
-            this.pictureBox4.Location = new System.Drawing.Point(312, 24);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(277, 19);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(34, 38);
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
@@ -202,7 +198,7 @@
             this.btnQLHH.Location = new System.Drawing.Point(0, 0);
             this.btnQLHH.Margin = new System.Windows.Forms.Padding(0);
             this.btnQLHH.Name = "btnQLHH";
-            this.btnQLHH.Size = new System.Drawing.Size(363, 82);
+            this.btnQLHH.Size = new System.Drawing.Size(323, 66);
             this.btnQLHH.TabIndex = 0;
             this.btnQLHH.Text = "                 Quản lý hàng hóa";
             this.btnQLHH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -216,11 +212,11 @@
             this.btnQLLM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLLM.ForeColor = System.Drawing.Color.White;
             this.btnQLLM.Image = global::QuanLyCuaHang.Properties.Resources.price_list;
-            this.btnQLLM.Location = new System.Drawing.Point(0, 90);
+            this.btnQLLM.Location = new System.Drawing.Point(0, 72);
             this.btnQLLM.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLLM.MaximumSize = new System.Drawing.Size(363, 76);
+            this.btnQLLM.MaximumSize = new System.Drawing.Size(323, 61);
             this.btnQLLM.Name = "btnQLLM";
-            this.btnQLLM.Size = new System.Drawing.Size(363, 76);
+            this.btnQLLM.Size = new System.Drawing.Size(323, 61);
             this.btnQLLM.TabIndex = 1;
             this.btnQLLM.Text = "                 Quản lý loại món";
             this.btnQLLM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -232,10 +228,10 @@
             this.btnQLMA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLMA.ForeColor = System.Drawing.Color.White;
             this.btnQLMA.Image = global::QuanLyCuaHang.Properties.Resources.dish;
-            this.btnQLMA.Location = new System.Drawing.Point(0, 166);
+            this.btnQLMA.Location = new System.Drawing.Point(0, 133);
             this.btnQLMA.Margin = new System.Windows.Forms.Padding(0);
             this.btnQLMA.Name = "btnQLMA";
-            this.btnQLMA.Size = new System.Drawing.Size(363, 81);
+            this.btnQLMA.Size = new System.Drawing.Size(323, 65);
             this.btnQLMA.TabIndex = 2;
             this.btnQLMA.Text = "                 Quản lý Món ăn";
             this.btnQLMA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -248,32 +244,30 @@
             this.flowLayoutPanel2.Controls.Add(this.btnQLDDH);
             this.flowLayoutPanel2.Controls.Add(this.btnQLGH);
             this.flowLayoutPanel2.Controls.Add(this.btnQLKH);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 263);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 210);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel2.MaximumSize = new System.Drawing.Size(363, 331);
-            this.flowLayoutPanel2.MinimumSize = new System.Drawing.Size(363, 80);
+            this.flowLayoutPanel2.MaximumSize = new System.Drawing.Size(323, 265);
+            this.flowLayoutPanel2.MinimumSize = new System.Drawing.Size(323, 64);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(363, 80);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(323, 64);
             this.flowLayoutPanel2.TabIndex = 4;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.btnQLDH);
-            this.panel2.Location = new System.Drawing.Point(3, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(363, 76);
+            this.panel2.Size = new System.Drawing.Size(323, 61);
             this.panel2.TabIndex = 8;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::QuanLyCuaHang.Properties.Resources.down;
-            this.pictureBox2.Location = new System.Drawing.Point(313, 21);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(278, 17);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 38);
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -288,7 +282,7 @@
             this.btnQLDH.Location = new System.Drawing.Point(0, 0);
             this.btnQLDH.Margin = new System.Windows.Forms.Padding(0);
             this.btnQLDH.Name = "btnQLDH";
-            this.btnQLDH.Size = new System.Drawing.Size(363, 76);
+            this.btnQLDH.Size = new System.Drawing.Size(323, 61);
             this.btnQLDH.TabIndex = 3;
             this.btnQLDH.Text = "                 Quản lý đặt hàng";
             this.btnQLDH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -302,10 +296,10 @@
             this.btnQLDDH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLDDH.ForeColor = System.Drawing.Color.White;
             this.btnQLDDH.Image = global::QuanLyCuaHang.Properties.Resources.box;
-            this.btnQLDDH.Location = new System.Drawing.Point(0, 84);
+            this.btnQLDDH.Location = new System.Drawing.Point(0, 67);
             this.btnQLDDH.Margin = new System.Windows.Forms.Padding(0);
             this.btnQLDDH.Name = "btnQLDDH";
-            this.btnQLDDH.Size = new System.Drawing.Size(363, 82);
+            this.btnQLDDH.Size = new System.Drawing.Size(323, 66);
             this.btnQLDDH.TabIndex = 0;
             this.btnQLDDH.Text = "                 Quản lý đơn đặt hàng";
             this.btnQLDDH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -318,11 +312,11 @@
             this.btnQLGH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLGH.ForeColor = System.Drawing.Color.White;
             this.btnQLGH.Image = global::QuanLyCuaHang.Properties.Resources.fast_delivery;
-            this.btnQLGH.Location = new System.Drawing.Point(0, 166);
+            this.btnQLGH.Location = new System.Drawing.Point(0, 133);
             this.btnQLGH.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLGH.MaximumSize = new System.Drawing.Size(363, 76);
+            this.btnQLGH.MaximumSize = new System.Drawing.Size(323, 61);
             this.btnQLGH.Name = "btnQLGH";
-            this.btnQLGH.Size = new System.Drawing.Size(363, 76);
+            this.btnQLGH.Size = new System.Drawing.Size(323, 61);
             this.btnQLGH.TabIndex = 1;
             this.btnQLGH.Text = "                 Quản lý giao hàng";
             this.btnQLGH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -334,11 +328,11 @@
             this.btnQLKH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQLKH.ForeColor = System.Drawing.Color.White;
             this.btnQLKH.Image = global::QuanLyCuaHang.Properties.Resources.id_card;
-            this.btnQLKH.Location = new System.Drawing.Point(0, 242);
+            this.btnQLKH.Location = new System.Drawing.Point(0, 194);
             this.btnQLKH.Margin = new System.Windows.Forms.Padding(0);
-            this.btnQLKH.MaximumSize = new System.Drawing.Size(363, 76);
+            this.btnQLKH.MaximumSize = new System.Drawing.Size(323, 61);
             this.btnQLKH.Name = "btnQLKH";
-            this.btnQLKH.Size = new System.Drawing.Size(363, 76);
+            this.btnQLKH.Size = new System.Drawing.Size(323, 61);
             this.btnQLKH.TabIndex = 4;
             this.btnQLKH.Text = "                 Quản lý khách hàng";
             this.btnQLKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -350,10 +344,10 @@
             this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTK.ForeColor = System.Drawing.Color.White;
             this.btnTK.Image = global::QuanLyCuaHang.Properties.Resources.diagram;
-            this.btnTK.Location = new System.Drawing.Point(0, 343);
+            this.btnTK.Location = new System.Drawing.Point(0, 274);
             this.btnTK.Margin = new System.Windows.Forms.Padding(0);
             this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(363, 79);
+            this.btnTK.Size = new System.Drawing.Size(323, 63);
             this.btnTK.TabIndex = 6;
             this.btnTK.Text = "                        Thống kê";
             this.btnTK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -366,10 +360,10 @@
             this.btnTTCN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTTCN.ForeColor = System.Drawing.Color.White;
             this.btnTTCN.Image = global::QuanLyCuaHang.Properties.Resources.profile;
-            this.btnTTCN.Location = new System.Drawing.Point(0, 422);
+            this.btnTTCN.Location = new System.Drawing.Point(0, 337);
             this.btnTTCN.Margin = new System.Windows.Forms.Padding(0);
             this.btnTTCN.Name = "btnTTCN";
-            this.btnTTCN.Size = new System.Drawing.Size(363, 79);
+            this.btnTTCN.Size = new System.Drawing.Size(323, 63);
             this.btnTTCN.TabIndex = 7;
             this.btnTTCN.Text = "                 Thông tin cá nhân";
             this.btnTTCN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -385,24 +379,23 @@
             // 
             this.panelContainer.BackColor = System.Drawing.Color.White;
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(363, 0);
-            this.panelContainer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelContainer.Location = new System.Drawing.Point(323, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1304, 850);
+            this.panelContainer.Size = new System.Drawing.Size(1159, 680);
             this.panelContainer.TabIndex = 2;
             // 
             // TrangChu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1667, 850);
+            this.ClientSize = new System.Drawing.Size(1482, 680);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.sidebar);
             this.HelpButton = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TrangChu";
             this.Text = "TrangChu";
             this.Load += new System.EventHandler(this.TrangChu_Load);
+            this.Resize += new System.EventHandler(this.TrangChu_Resize);
             this.sidebar.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

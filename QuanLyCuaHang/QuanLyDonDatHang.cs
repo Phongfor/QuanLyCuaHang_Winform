@@ -161,7 +161,7 @@ namespace QuanLyCuaHang
         {
             string query = "SELECT MaMon, TenMon, Gia, MoTa FROM tblMonAn";
             flpContainer.Controls.Clear();
-            string defaultImagePath = @"D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\img_Icon\fast-food.jpg";           
+            string defaultImagePath = @"D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\img_Icon\fast-food.jpg";
             try
             {
                 using (SqlConnection cnn = Connections.GetConnect())
@@ -172,13 +172,16 @@ namespace QuanLyCuaHang
                         DataTable dt = new DataTable();
                         adapter.Fill(dt);
 
+                        int itemWidth = (flpContainer.ClientSize.Width / 4) - 10; // Chia đều thành 4 cột
+
                         foreach (DataRow row in dt.Rows)
                         {
                             FoodItem monAn = new FoodItem();
+                            monAn.Width = itemWidth; // Đặt kích thước item
+                            monAn.Height = 120; // Đặt chiều cao cố định
                             monAn.TenMon = row["TenMon"].ToString();
                             monAn.Gia = Convert.ToDecimal(row["Gia"]);
 
-                            // Lấy đường dẫn hình ảnh từ cột 'MoTa'
                             string imagePath = Path.Combine(@"D:\học kì 2 năm 2\C#\QuanLyCuaHang\QuanLyCuaHang_Winform\img_Icon", row["MoTa"].ToString());
 
                             if (!File.Exists(imagePath))
@@ -186,7 +189,6 @@ namespace QuanLyCuaHang
                                 imagePath = defaultImagePath;
                             }
 
-                            // Kiểm tra ảnh hợp lệ trước khi load
                             try
                             {
                                 monAn.Anh = Image.FromFile(imagePath);
@@ -197,9 +199,10 @@ namespace QuanLyCuaHang
                             }
 
                             monAn.ItemClicked += (s, e) =>
-                            {                            
+                            {
                                 ThemMonVaoHoaDon(monAn.TenMon, monAn.Gia);
                             };
+
                             flpContainer.Controls.Add(monAn);
                         }
                     }
@@ -373,6 +376,14 @@ namespace QuanLyCuaHang
         private void txtGiamGia_KeyUp(object sender, KeyEventArgs e)
         {
             TinhTongTien();
+        }
+
+        private void QuanLyDonDatHang_Resize(object sender, EventArgs e)
+        {
+            foreach (Control item in flpContainer.Controls)
+            {
+                item.Width = (flpContainer.ClientSize.Width / 4) - 10;
+            }
         }
     }
 }

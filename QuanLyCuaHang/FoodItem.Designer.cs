@@ -37,6 +37,7 @@
             // lblTenMon
             // 
             this.lblTenMon.AutoSize = true;
+            this.lblTenMon.BackColor = System.Drawing.Color.Transparent;
             this.lblTenMon.Location = new System.Drawing.Point(3, 15);
             this.lblTenMon.Name = "lblTenMon";
             this.lblTenMon.Size = new System.Drawing.Size(75, 16);
@@ -45,19 +46,24 @@
             // 
             // lbGia
             // 
+            this.lbGia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbGia.AutoSize = true;
+            this.lbGia.BackColor = System.Drawing.Color.Transparent;
+            this.lbGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbGia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbGia.Location = new System.Drawing.Point(3, 73);
             this.lbGia.Name = "lbGia";
-            this.lbGia.Size = new System.Drawing.Size(76, 23);
+            this.lbGia.Size = new System.Drawing.Size(78, 25);
             this.lbGia.TabIndex = 1;
             this.lbGia.Text = "50.000đ";
             // 
             // pbImg
             // 
+            this.pbImg.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pbImg.Location = new System.Drawing.Point(93, 15);
             this.pbImg.Name = "pbImg";
             this.pbImg.Size = new System.Drawing.Size(101, 74);
+            this.pbImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImg.TabIndex = 2;
             this.pbImg.TabStop = false;
             // 
@@ -67,9 +73,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.pbImg);
             this.Controls.Add(this.lbGia);
             this.Controls.Add(this.lblTenMon);
+            this.Controls.Add(this.pbImg);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "FoodItem";
