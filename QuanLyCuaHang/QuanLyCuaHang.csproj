@@ -50,7 +50,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartForm.Designer.cs">
+      <DependentUpon>ChartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connections.cs" />
+    <Compile Include="DgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DgrForm.Designer.cs">
+      <DependentUpon>DgrForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FoodItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -134,6 +146,12 @@
     <Compile Include="TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChartForm.resx">
+      <DependentUpon>ChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DgrForm.resx">
+      <DependentUpon>DgrForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FoodItem.resx">
       <DependentUpon>FoodItem.cs</DependentUpon>
     </EmbeddedResource>

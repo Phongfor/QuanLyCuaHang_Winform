@@ -60,3 +60,5 @@ E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.exe
 E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.pdb
 E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ThongKeDoanhThu.resources
 E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ThongTinCaNhan.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.ChartForm.resources
+E:\btl\QuanLyCuaHang_Winform\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.DgrForm.resources

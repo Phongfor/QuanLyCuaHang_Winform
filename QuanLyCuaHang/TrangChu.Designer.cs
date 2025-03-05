@@ -54,6 +54,7 @@
             this.btnTTCN = new System.Windows.Forms.Button();
             this.MenuTimer2 = new System.Windows.Forms.Timer(this.components);
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sidebarMenu)).BeginInit();
@@ -63,6 +64,7 @@
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // SidebarTimer
@@ -384,12 +386,20 @@
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.White;
+            this.panelContainer.Controls.Add(this.flowLayoutPanel3);
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(363, 0);
             this.panelContainer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1304, 850);
             this.panelContainer.TabIndex = 2;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(-370, -44);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1731, 932);
+            this.flowLayoutPanel3.TabIndex = 0;
             // 
             // TrangChu
             // 
@@ -401,8 +411,9 @@
             this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TrangChu";
-            this.Text = "TrangChu";
+            this.Text = "`";
             this.Load += new System.EventHandler(this.TrangChu_Load);
+            this.Resize += new System.EventHandler(this.TrangChu_Resize);
             this.sidebar.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -413,6 +424,7 @@
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -443,5 +455,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.Label lbRole;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
     }
 }

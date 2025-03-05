@@ -239,5 +239,20 @@ namespace QuanLyCuaHang
             ThongKeDoanhThu tkdt = new ThongKeDoanhThu();
             AddControlForm(tkdt);
         }
+
+        private void TrangChu_Resize(object sender, EventArgs e)
+        {
+            int margin = 10; // Khoảng cách giữa các control
+            int controlCount = flowLayoutPanel3.Controls.Count;
+
+            if (controlCount > 0)
+            {
+                int newWidth = Math.Max((flowLayoutPanel3.ClientSize.Width / controlCount) - margin, 100); // Giới hạn nhỏ nhất 100px
+                foreach (Control item in flowLayoutPanel3.Controls)
+                {
+                    item.Width = newWidth;
+                }
+            }
+        }
     }
 }
